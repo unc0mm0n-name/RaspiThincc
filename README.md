@@ -1,12 +1,10 @@
 # RaspiThincc
 
-An Easy to use RaspberryPi Thin Client
-The idea is to create a simple, low cost, low effort thin client to use it with any tier 1 support level to connect it to any
-multi-session server like a Windows TS or RDS, for example.
+An Easy to use RaspberryPi Thin Client.
+The idea is to create a simple, low cost, low effort thin client to be use it by anyone with any multi-session server like a Windows TS or RDS, for example.
 
 How?
-Well i will start with a minimal custom raspbian image, with simple bash script (raspi-config style) that installs all the dependencies
-and configuration files need it.
+Well it will be based in a Raspbian Stretch Lite image, and the project itself will have a shell script to simplify the configurations and the dependencies installation (like a raspi-config style). 
 
 It's based on:
   - OS: Raspbian Stretch Lite
@@ -15,5 +13,6 @@ It's based on:
   - GUI Windows for users and passwords and users acctions: Zenity and Yad (it just works)
   - Bootup customization: Pixel
   - Bash scripting... of course
-
-Any ideas are welcome.
+  
+  I made it once doing it piece by pice, Not "Fully automated yet". I will change the README wen it's functional
+  
