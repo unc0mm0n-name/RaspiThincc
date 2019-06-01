@@ -9,7 +9,7 @@ Well i will start with a minimal custom raspbian image, with simple bash script 
 and configuration files need it.
 
 It's based on:
-OS: Raspbian
+OS: Raspbian Stretch Lite
 RDP client: xfreerdp
 Windows Manager: Ratpoison (an excelent lightweight maded by Shawn Betts)
 GUI Windows for users and passwords and users acctions: Zenity and Yad (it just works)
