@@ -1,5 +1,5 @@
 # RaspiThincc
-*/\atention/\.*
+*atention.*
 Not "Fully automated yet". I will change the README wen it's functional
 
 
@@ -17,12 +17,12 @@ It's be based in a Raspbian Stretch Lite image, and the project itself will have
   - Bash scripting... for initialization, installation, program load
   
 # Scripting strategy 
-*Installer / Configuration:
+*Installer / Configuration:*
   - It will install all the dependencies.
   - After check all the requirements list, it will configure the files need it
   - System modification: it will modify the os components like boot-startup, mod-probe to ban unnecessary components
 
-*Autostart
+*Autostart*
   - A simple loop that make an rdp connection with the params included in the zenity dialog box (user and password) and pass it to the xfreerdp.
   If the connection fails, it will ask again for the credentials.
   Not very secure, i know. We will have to improve this.
